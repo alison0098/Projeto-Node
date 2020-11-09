@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+ 
+<html>
+<head>
+      <title>Filtro SBC</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <script src="/static/js/jquery-filter-table.js"></script>
+</head>
+ 
+<body>
+<div class="container">
+		<h2>Tabela de Competências Derivadas</h2>
+		<div class="row col-md-7 ">
+			<div style="margin-bottom:20px; padding:10px; background-color:#336699; color:white;">
+		  	<p>Você pode buscar por qualquer termo</p>  
+		  	<input class="form-control" id="inputFilter" type="text" placeholder="termo de busca..." />
+		  	</div>
+			<table id="customerTable" class="table table-bordered table-hover table-responsive">
+				<thead>
+					<tr>
+						<th>Código</th>
+						<th>Competência Derivada</th>
+						<th>Classificação</th>
+						<th>Conteúdo</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+</body>
+</html>
